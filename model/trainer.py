@@ -14,7 +14,7 @@ from model.fp.online_triplet_loss import OnlineTripletLoss
 from model.fp.lamb_optimizer import LAMB
 from model.utils.experiment_helper import ExperimentHelper
 from model.utils.mini_search_subroutines import mini_search_eval
-
+ 
 
 def build_fp(cfg):
     """ Build fingerprinter """
